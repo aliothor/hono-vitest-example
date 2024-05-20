@@ -9,11 +9,15 @@
   },
   "dependencies": {
     "@hono/node-server": "^1.11.1",
-    "hono": "^4.3.7"
+    "@hono/swagger-ui": "^0.2.2",
+    "fs-extra": "^11.2.0",
+    "hono": "^4.3.7",
+    "mime": "^4.0.3"
   },
   "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
     "@types/node": "^20.12.12",
-    "tsx": "^4.10.4",
+    "tsx": "^4.10.5",
     "vitest": "^1.6.0"
   }
 }
